@@ -59,3 +59,33 @@ The model used for prediction is a **Logistic Regression** model. The steps invo
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/ali-samin/Diabetes_Disease_Prediction.git
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the Flask application:
+   ```bash
+   python application.py
+4. Open a web browser and navigate to http://127.0.0.1:5000/ to access the web interface.
+
+## Technologies Used
+
+- Python: Core programming language.
+- Flask: For developing the web application.
+- Scikit-learn: For machine learning algorithms.
+- Pandas: For data manipulation.
+- NumPy: For numerical computations.
+- Matplotlib and Seaborn: For data visualization.
+
+## Results and Metrics
+The model was evaluated using several performance metrics:
+
+- Accuracy: Measures the percentage of correctly predicted cases.
+- Precision: The ratio of correctly predicted positive observations to the total predicted positives.
+- Recall: The ratio of correctly predicted positive observations to all observations in the actual class.
+- F1-Score: A weighted average of Precision and Recall.
+
+Confusion Matrix:
+
+Predicted: Non-Diabetic	Predicted: Diabetic
+Actual: Non-Diabetic	TP	FP
+Actual: Diabetic	FN	TN
