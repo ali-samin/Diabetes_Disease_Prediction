@@ -1,0 +1,8 @@
+python 3.10
+flask
+numpy
+pandas
+pickle
+scikit-learn
+seaborn
+matplotlib
