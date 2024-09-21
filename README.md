@@ -84,8 +84,4 @@ The model was evaluated using several performance metrics:
 - Recall: The ratio of correctly predicted positive observations to all observations in the actual class.
 - F1-Score: A weighted average of Precision and Recall.
 
-Confusion Matrix:
-
-Predicted: Non-Diabetic	Predicted: Diabetic
-Actual: Non-Diabetic	TP	FP
-Actual: Diabetic	FN	TN
+The trained model is saved in the Model/modelForPrediction.pkl file and is used in the Flask app to make real-time predictions based on user input.
